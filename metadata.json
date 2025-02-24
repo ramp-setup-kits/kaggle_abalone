@@ -1,0 +1,25 @@
+{
+    "kaggle": {
+        "name": "playground-series-s4e4",
+        "year": "2024",
+        "type": "playground"
+    },
+    "data_description": {
+        "target_cols": ["Rings"],
+        "feature_types" : {
+          "id": "num",
+          "Sex": "cat",
+          "Length": "num",
+          "Diameter": "num",
+          "Height": "num",
+          "Whole weight": "num",
+          "Whole weight.1": "num",
+          "Whole weight.2": "num",
+          "Shell weight": "num"
+        }
+    },
+    "id_col": "id",
+    "score_name": "rmsle",
+    "title": "Kaggle abalone",
+    "prediction_type": "regression"
+}
