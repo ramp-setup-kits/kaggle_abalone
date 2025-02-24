@@ -9,11 +9,13 @@ cd ramp-setup-kits
 
 Clone the repo:
 ```
-git 
+git clone https://github.com/ramp-setup-kits/kaggle_abalone.git
+```
+
 If you have Kaggle API, do
 ```
 cd kaggle_abalone
 kaggle competitions download -c playground-series-s4e4
 ```
 
-Otherwise download `train.csv`, `test.csv`, and `sample_submission.csv` from the competition website and copy them in 
+Otherwise download `train.csv`, `test.csv`, and `sample_submission.csv` from the competition website and copy them into `kaggle_abalone`.
